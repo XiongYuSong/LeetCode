@@ -1,11 +1,10 @@
 package hue.edu.xiong;
 
-import java.util.Arrays;
-import java.util.Comparator;
-
 public class Main {
     public static void main(String[] args) {
-        int[] i = new int[4];
-        Arrays.sort(i);
+        String str1 = "slient";
+        String str2 = "listena";
+        System.out.println(str1.matches("["+str2+"^]+"));
+        System.out.println(str2.matches("["+str1+"^]+"));
     }
 }
