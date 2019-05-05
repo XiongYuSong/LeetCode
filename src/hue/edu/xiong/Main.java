@@ -1,5 +1,7 @@
 package hue.edu.xiong;
 
+import java.util.Collections;
+import java.util.LinkedList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -15,6 +17,7 @@ public class Main {
 
 
         System.out.println(str1.matches("[" + str2 + "^]+") && str2.matches("[" + str1 + "^]+"));
+
 
     }
 }
