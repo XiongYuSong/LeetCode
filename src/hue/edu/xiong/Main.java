@@ -1,9 +1,6 @@
 package hue.edu.xiong;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -23,6 +20,7 @@ public class Main {
         ArrayList<Integer> list = new ArrayList<>();
         list.add(1);
         list.remove(0);
+
 
     }
 }
