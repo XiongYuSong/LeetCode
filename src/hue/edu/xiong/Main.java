@@ -1,11 +1,21 @@
 package hue.edu.xiong;
 
+import java.util.Random;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.LongAdder;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class Main {
 
+    public static void main(String[] args) {
+        Random random = new Random();
+        int[] arr = new int[102];
+        for (int i = 0; i < 10000; i++) {
+            int i1 = (int) (random.nextDouble() * 100);
+            arr[i1] += 1;
+        }
+        System.out.println();
+    }
 
 //    public static void main(String[] args) {
 //        // 每100毫秒创建100线程，每个线程创建一个1M的对象，即每100ms申请100M堆空间
@@ -24,18 +34,18 @@ public class Main {
 //        }, 1000, 100, TimeUnit.MILLISECONDS);
 //    }
 
-    public static void main(String[] args) throws ClassNotFoundException {
-        ReentrantLock reentrantLock = new ReentrantLock();
-        AtomicInteger atomicInteger = new AtomicInteger();
-        LongAdder longAdder = new LongAdder();
-        //没有4,和有很多重复的7
-        int[] arr1 = new int[]{1, 2, 3, 5, 6, 7, 7, 7, 7, 8, 9, 10, 11, 13, 14};
-        int target = 7;
-        int index = fun1(arr1, target, 0, arr1.length - 1);
-        System.out.println("下标为: " + index + " ,值为: " + arr1[index]);
-        index = fun2(arr1, target, 0, arr1.length - 1);
-        System.out.println("下标为: " + index + " ,值为: " + arr1[index]);
-    }
+//    public static void main(String[] args) throws ClassNotFoundException {
+//        ReentrantLock reentrantLock = new ReentrantLock();
+//        AtomicInteger atomicInteger = new AtomicInteger();
+//        LongAdder longAdder = new LongAdder();
+//        //没有4,和有很多重复的7
+//        int[] arr1 = new int[]{1, 2, 3, 5, 6, 7, 7, 7, 7, 8, 9, 10, 11, 13, 14};
+//        int target = 7;
+//        int index = fun1(arr1, target, 0, arr1.length - 1);
+//        System.out.println("下标为: " + index + " ,值为: " + arr1[index]);
+//        index = fun2(arr1, target, 0, arr1.length - 1);
+//        System.out.println("下标为: " + index + " ,值为: " + arr1[index]);
+//    }
 
     //二分查找法模板一:查找等于或者小于target的最后一个值
     private static int fun2(int[] arr, int target, int l, int r) {
