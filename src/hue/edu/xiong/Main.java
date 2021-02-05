@@ -8,13 +8,17 @@ import java.util.concurrent.locks.ReentrantLock;
 public class Main {
 
     public static void main(String[] args) {
-        Random random = new Random();
-        int[] arr = new int[102];
-        for (int i = 0; i < 10000; i++) {
-            int i1 = (int) (random.nextDouble() * 100);
-            arr[i1] += 1;
-        }
-        System.out.println();
+//        Random random = new Random();
+//        int[] arr = new int[102];
+//        for (int i = 0; i < 10000; i++) {
+//            int i1 = (int) (random.nextDouble() * 100);
+//            arr[i1] += 1;
+//        }
+//        System.out.println();
+        new Thread(() -> {
+            System.out.println("22222222");
+        }).run();
+
     }
 
 //    public static void main(String[] args) {
