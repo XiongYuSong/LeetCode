@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="430c0758-503c-4899-be47-5420ffd260f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hue/edu/xiong/lc0400/lc0450/Main0481.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hue/edu/xiong/lc0700/lc0750/Main0784.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hue/edu/xiong/lc0900/lc0900/Main0907.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hue/edu/xiong/lc1700/lc1750/Main1773.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hue/edu/xiong/lc1700/lc1750/Main1775.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hue/edu/xiong/lc0000/lc0000/Main0020.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hue/edu/xiong/lc0000/lc0000/Main0020.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hue/edu/xiong/lc0600/lc0650/Main0659.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hue/edu/xiong/lc0600/lc0650/Main0659.java" afterDir="false" />
-    </list>
+    <list default="true" id="430c0758-503c-4899-be47-5420ffd260f4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,6 +84,7 @@
       <workItem from="1667465229406" duration="4000" />
       <workItem from="1670395288583" duration="4686000" />
       <workItem from="1670403380803" duration="1515000" />
+      <workItem from="1670404908626" duration="84000" />
     </task>
     <servers />
   </component>
