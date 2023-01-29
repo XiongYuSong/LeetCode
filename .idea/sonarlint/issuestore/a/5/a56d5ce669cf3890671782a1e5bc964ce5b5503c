@@ -1,0 +1,7 @@
+
+Q
+java:S3631"/Use "Arrays.stream" instead of "Arrays.asList".(Ùùƒ†ıÿÿÿÿ8áÔ“Ó0
+T
+java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8ç˜Ó“Ó0
+N
+java:S1128"1Remove this unused import 'java.util.Comparator'.(î¹ó¹8ç˜Ó“Ó0

@@ -1,0 +1,14 @@
+
+
+java:S1319!"fThe type of "stack" should be an interface such as "List" rather than the implementation "LinkedList".(ÜëêÑúÿÿÿÿ
+l
+java:S1104!"QMake stack a static final constant or non-public and provide accessors if needed.(ÜëêÑúÿÿÿÿ
+F
+java:S1444!"+Make this "public static stack" field final(ÜëêÑúÿÿÿÿ
+8
+java:S2386!"Make this member "protected".(ÜëêÑúÿÿÿÿ
+Y
+java:S1854"<Remove this useless assignment to local variable "listNode".(ííû8ƒ“Æ²Ï0
+J
+java:S1481"-Remove this unused "listNode" local variable.(ííû8…“Æ²Ï0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ì¡Ñ²Ï0

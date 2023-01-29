@@ -1,0 +1,40 @@
+
+{
+java:S1192"^Define a constant instead of duplicating this literal "Boolean.FALSE.equals(null) : " 6 times.(ñ¥øá8ÁÅ£¢Ğ0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ñ¥øá8Àï‘¢Ğ0
+Q	java:S125"<This block of commented-out lines of code should be removed.(ã¹áÜ
+—
+java:S2159"zRemove this call to "equals"; comparisons against null always return false; consider using '== null' to check for nullity.(ñ¥øá8Ñ’¢Ğ0
+9
+java:S1116"Remove this empty statement.(ñ¥øá8Áï‘¢Ğ0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(œ¢š½8Ş£’¢Ğ0
+9
+java:S1116"Remove this empty statement.(œ¢š½8ß£’¢Ğ0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(û¹¤ƒ8üŞ’¢Ğ0
+9
+java:S1116"Remove this empty statement.(û¹¤ƒ8üŞ’¢Ğ0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(‹Õ¿şüÿÿÿÿ8ïÎ ¢Ğ0
+œ
+java:S2159"zRemove this call to "equals"; comparisons against null always return false; consider using '== null' to check for nullity.(‹Õ¿şüÿÿÿÿ8ñÎ ¢Ğ0
+>
+java:S1116"Remove this empty statement.(‹Õ¿şüÿÿÿÿ8òÎ ¢Ğ0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ş‡ƒÖüÿÿÿÿ8óÎ ¢Ğ0
+>
+java:S1116"Remove this empty statement.(ş‡ƒÖüÿÿÿÿ8óÎ ¢Ğ0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¯‰Æëøÿÿÿÿ8óÎ ¢Ğ0
+>
+java:S1116"Remove this empty statement.(¯‰Æëøÿÿÿÿ8ôÎ ¢Ğ0
+V	java:S125"<This block of commented-out lines of code should be removed.(»•ûÿÿÿÿ
+V	java:S125,"<This block of commented-out lines of code should be removed.(’åÔˆøÿÿÿÿ
+O
+java:S1128"-Remove this unused import 'java.util.Random'.(èøÉ›ùÿÿÿÿ8¼„“¢Ğ0
+h
+java:S1128"FRemove this unused import 'java.util.concurrent.atomic.AtomicInteger'.(¿êäœøÿÿÿÿ8¼„“¢Ğ0
+d
+java:S1128"BRemove this unused import 'java.util.concurrent.atomic.LongAdder'.(ÖÜàûÿÿÿÿ8¼„“¢Ğ0
+b
+java:S1128"ERemove this unused import 'java.util.concurrent.locks.ReentrantLock'.(òªø8¼„“¢Ğ0
+D
+java:S1144:")Remove this unused private "fun2" method.(§æ¬ûÿÿÿÿ
+D
+java:S1144D")Remove this unused private "fun1" method.(„‰¶øÿÿÿÿ

@@ -15,9 +15,12 @@ public class Main {
 //            arr[i1] += 1;
 //        }
 //        System.out.println();
-        new Thread(() -> {
-            System.out.println("22222222");
-        }).run();
+        System.out.println("Boolean.FALSE.equals(null) : " + Boolean.FALSE.equals(null));;
+        System.out.println("Boolean.FALSE.equals(null) : " + Boolean.FALSE.equals(false));;
+        System.out.println("Boolean.FALSE.equals(null) : " + Boolean.FALSE.equals(true));;
+        System.out.println("Boolean.FALSE.equals(null) : " + Boolean.TRUE.equals(null));;
+        System.out.println("Boolean.FALSE.equals(null) : " + Boolean.TRUE.equals(false));;
+        System.out.println("Boolean.FALSE.equals(null) : " + Boolean.TRUE.equals(true));;
 
     }
 
