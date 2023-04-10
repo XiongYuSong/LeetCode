@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="430c0758-503c-4899-be47-5420ffd260f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hue/edu/xiong/Main1800/Main1800/Main1800.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hue/edu/xiong/lc0000/lc0000/Main0025.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hue/edu/xiong/lc1700/lc1750/Main1753.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hue/edu/xiong/lc1700/lc1750/Main1780.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/5/15365c43d9536166cf3dc4e012ed4094e9d61400" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/9/29881f3a5d6d8d7487320faec15cb23733bb65d3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/1/412cc8a2380c2b47ce2c1f80a31de7ff85410a44" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/1/416b1dc33b9cb8e76df00f855194ab3ecceb19aa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/c/ace905d6329248b2331336a08235b305922ae4d0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bddbe13d2be935560ea57acaf94d6876a9befaf3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c0e7ff55e9e5cc8fd063d393a500ae72a68b7090" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/hue/edu/xiong/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/hue/edu/xiong/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hue/edu/xiong/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hue/edu/xiong/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="430c0758-503c-4899-be47-5420ffd260f4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
