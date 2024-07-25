@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="430c0758-503c-4899-be47-5420ffd260f4" name="Changes" comment="" />
+    <list default="true" id="430c0758-503c-4899-be47-5420ffd260f4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/hue/edu/xiong/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/hue/edu/xiong/Main.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,21 +32,39 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2EnLhL8sqb81f5386afHHw64OjX" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main2673.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/xiongyusong/Documents/JAVADocument/LeetCode&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.Main2673">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hue.edu.xiong.Main" />
       <module name="LeetCode" />
@@ -66,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main1775" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hue.edu.xiong.lc1700.lc1750.Main1775" />
+    <configuration name="Main1043" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hue.edu.xiong.lc1000.lc1000.Main1043" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hue.edu.xiong.lc1700.lc1750.*" />
+          <option name="PATTERN" value="hue.edu.xiong.lc1000.lc1000.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main1800" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hue.edu.xiong.Main1800.Main1800.Main1800" />
+    <configuration name="Main2673" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hue.edu.xiong.lc2600.lc2650.Main2673" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hue.edu.xiong.Main1800.Main1800.*" />
+          <option name="PATTERN" value="hue.edu.xiong.lc2600.lc2650.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main2673" />
+        <item itemvalue="Application.Main1043" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main0025" />
         <item itemvalue="Application.Main1780" />
-        <item itemvalue="Application.Main1800" />
-        <item itemvalue="Application.Main1775" />
       </list>
     </recent_temporary>
   </component>
@@ -140,6 +165,24 @@
       <workItem from="1670578248018" duration="2839000" />
       <workItem from="1670813847644" duration="319000" />
       <workItem from="1671588254112" duration="1326000" />
+      <workItem from="1682062712681" duration="2962000" />
+      <workItem from="1709022908280" duration="32000" />
+      <workItem from="1709022952579" duration="12000" />
+      <workItem from="1709023260599" duration="8000" />
+      <workItem from="1709023434173" duration="9000" />
+      <workItem from="1709024939226" duration="2000" />
+      <workItem from="1709026584128" duration="19000" />
+      <workItem from="1709027712991" duration="625000" />
+      <workItem from="1709029782934" duration="2000" />
+      <workItem from="1709029866100" duration="5000" />
+      <workItem from="1709030121646" duration="1000" />
+      <workItem from="1709031850347" duration="41000" />
+      <workItem from="1709081433122" duration="12000" />
+      <workItem from="1709081455625" duration="258000" />
+      <workItem from="1709102139071" duration="1000" />
+      <workItem from="1709103963928" duration="1000" />
+      <workItem from="1709111112887" duration="3924000" />
+      <workItem from="1712129629867" duration="356000" />
     </task>
     <servers />
   </component>
@@ -184,6 +227,41 @@
           <url>file://$PROJECT_DIR$/src/hue/edu/xiong/lc0000/lc0000/Main0025.java</url>
           <line>29</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hue/edu/xiong/lc1000/lc1000/Main1043.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hue/edu/xiong/lc1000/lc1000/Main1043.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hue/edu/xiong/lc1000/lc1000/Main1043.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hue/edu/xiong/lc2600/lc2650/Main2673.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hue/edu/xiong/lc2600/lc2650/Main2673.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hue/edu/xiong/lc2600/lc2650/Main2673.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hue/edu/xiong/lc2600/lc2650/Main2673.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
