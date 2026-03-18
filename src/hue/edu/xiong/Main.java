@@ -1,10 +1,19 @@
 package hue.edu.xiong;
 
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class Main {
+
+
+    public static void main(String[] args) {
+//        [0,1,0,2,1,0,1,3,2,1,2,1]
+//        System.out.println(new Main().trap(new int[]{0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1}));
+//        new Main().moveZeroes(new int[]{0, 1, 0, 3, 12});
+        new Main().lengthOfLongestSubstring("abba");
+    }
+
     public int lengthOfLongestSubstring(String s) {
+        // a = 65+32 = 97 A = 65
         if (s.isEmpty()) {
             return 0;
         }
@@ -13,42 +22,116 @@ public class Main {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = -1;
         }
-        int ans = 1;
+
+        int ans = 0;
         int left = 0;
-        int right = 0;
-        while (right < s.length()) {
-            int index = s.charAt(right);
-            int lastCharIndex = arr[index];
-            if (lastCharIndex == -1 || lastCharIndex < left) {
-                arr[index] = right;
-                ans = Math.max(ans, right - left + 1);
-            } else {
-                arr[index] = right;
-                left = lastCharIndex + 1;
+        char[] charArray = s.toCharArray();
+        for (int i = 0; i < charArray.length; i++) {
+            char ch = charArray[i];
+            if (arr[ch] > -1 && )
+
+
+        }
+
+    }
+
+
+    public List<List<Integer>> threeSum(int[] nums) {
+        Arrays.sort(nums);
+        Set<List<Integer>> ans = new HashSet<>();
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] > 0) {
+                break;
             }
-            right++;
+            if (i > 0 && nums[i] == nums[i - 1]) {
+                continue;
+            }
+            int leftIndex = i + 1;
+            int rightIndex = nums.length - 1;
+            int target = -nums[i];
+            while (leftIndex < rightIndex) {
+                if (nums[leftIndex] + nums[rightIndex] > target) {
+                    rightIndex--;
+                } else if (nums[leftIndex] + nums[rightIndex] < target) {
+                    leftIndex++;
+                } else {
+                    ans.add(Arrays.asList(nums[i], nums[leftIndex], nums[rightIndex]));
+                    rightIndex--;
+                    leftIndex++;
+                }
+            }
+        }
+        return new ArrayList<>(ans);
+    }
+
+    public void moveZeroes(int[] nums) {
+        int leftIndex = 0;
+        int rightIndex = 0;
+        while (rightIndex < nums.length) {
+            if (nums[rightIndex] != 0) {
+                nums[leftIndex] = nums[rightIndex];
+                leftIndex++;
+            }
+            rightIndex++;
+        }
+        while (leftIndex < nums.length) {
+            nums[leftIndex] = 0;
+            leftIndex++;
+        }
+    }
+
+    public int longestConsecutive(int[] nums) {
+        Set<Integer> set = new HashSet<>();
+        for (int num : nums) {
+            set.add(num);
+        }
+        int ans = 0;
+        for (int i = 0; i <= nums.length; i++) {
+            int currentNum = nums[i];
+            if (!set.contains(currentNum - 1)) {
+                int count = 1;
+                currentNum++;
+                while (set.contains(currentNum)) {
+                    count++;
+                    currentNum++;
+                }
+                ans = Math.max(ans, count);
+            }
         }
         return ans;
     }
 
-    public static void main(String[] args) {
-//        System.out.println(new Main().lengthOfLongestSubstring("abcabcbb"));
-//        Random random = new Random();
-//        int[] arr = new int[102];
-//        for (int i = 0; i < 10000; i++) {
-//            int i1 = (int) (random.nextDouble() * 100);
-//            arr[i1] += 1;
-//        }
-//        System.out.println();
-//        System.out.println("Boolean.FALSE.equals(null) : " + Boolean.FALSE.equals(null));;
-//        System.out.println("Boolean.FALSE.equals(null) : " + Boolean.FALSE.equals(false));;
-//        System.out.println("Boolean.FALSE.equals(null) : " + Boolean.FALSE.equals(true));;
-//        System.out.println("Boolean.FALSE.equals(null) : " + Boolean.TRUE.equals(null));;
-//        System.out.println("Boolean.FALSE.equals(null) : " + Boolean.TRUE.equals(false));;
-//        System.out.println("Boolean.FALSE.equals(null) : " + Boolean.TRUE.equals(true));;
-//        System.out.println(new Main().maxScore(Arrays.asList(Arrays.asList(9,5,7,3), Arrays.asList(8,9,6,1), Arrays.asList(6,7,14,3), Arrays.asList(2,5,3,1))));
-        System.out.println(new Main().maxScore(Arrays.asList(Arrays.asList(4,3,2), Arrays.asList(3,2,1))));
+    public int[] twoSum(int[] nums, int target) {
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            int ans = target - nums[i];
+            if (map.containsKey(ans)) {
+                return new int[]{i, map.get(ans)};
+            } else {
+                map.put(nums[i], i);
+            }
+        }
+        return new int[]{};
     }
+
+    public List<List<String>> groupAnagrams(String[] strs) {
+        Map<String, List<String>> map = new HashMap<>();
+        for (int i = 0; i < strs.length; i++) {
+            String str = strs[i];
+            char[] chars = str.toCharArray();
+            Arrays.sort(chars);
+            String key = new String(chars);
+            if (map.containsKey(key)) {
+                map.get(key).add(str);
+            } else {
+                List<String> list = new ArrayList<>();
+                list.add(str);
+                map.put(key, list);
+            }
+        }
+        return new ArrayList<>(map.values());
+    }
+
 
     public int maxScore(List<List<Integer>> grid) {
         int[][] dp = new int[grid.size()][grid.get(0).size()];
